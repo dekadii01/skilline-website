@@ -1178,6 +1178,10 @@ input:checked + .toggle-bg {
   margin-left: 1.25rem;
 }
 
+.ml-\[8px\] {
+  margin-left: 8px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1232,14 +1236,6 @@ input:checked + .toggle-bg {
 
 .mt-\[30px\] {
   margin-top: 30px;
-}
-
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-
-.ml-\[8px\] {
-  margin-left: 8px;
 }
 
 .block {
@@ -2500,6 +2496,10 @@ input:checked + .toggle-bg {
     margin-bottom: 0px;
   }
 
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:ml-20 {
     margin-left: 5rem;
   }
@@ -2510,10 +2510,6 @@ input:checked + .toggle-bg {
 
   .md\:mt-32 {
     margin-top: 8rem;
-  }
-
-  .md\:ml-0 {
-    margin-left: 0px;
   }
 
   .md\:block {
